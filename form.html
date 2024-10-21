@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+        .navbar{
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .div{
+            display: flex;
+            
+        }
+        h2{
+            margin-left: 40%;
+            justify-content: end;
+            margin-top: 30%;
+            background-color: blue;
+        }
+        button{
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+            margin-left: 40%;
+        }
+
+        button:hover{
+            box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+        }
+        h1{
+            margin-left: 40%;
+        }
+        .footer{
+            margin: auto;
+            margin: 600px;
+            color: white;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="div">
+            <ul>
+            <div class="logo"><a href="#"> Your Website Name </a></div>
+            
+                <button><a href="#">Login</a></button>
+            </ul>
+        </div>
+    </nav>
+    <h1> Set up your account to get started </h1>
+    <form action="#">
+        <div class="main">
+            <div class="form">
+                
+                <input type="text" name="fname" id="fname" class="input">
+            </div>
+            <div class="form">
+               
+                <input type="text" name="lname" id="lname"   class="input">
+            </div>
+        </div>
+    <button>Get Started</button>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="footer">Made with by (Vaishali Saini)</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
